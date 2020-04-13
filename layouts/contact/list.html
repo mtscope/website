@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div id="map_canvas" data-latitude="{{ .Site.Params.map.map_latitude }}"
+  data-longitude="{{ .Site.Params.map.map_longitude }}" data-marker="{{ .Site.Params.map.map_marker | absURL }}"
+  data-marker-name="{{ .Site.Title }}">
+</div>
+
+<!-- subscription form -->
+<form action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank">
+  <input type="email" class="form-control" placeholder="Enter your email">
+  <button type="submit" name="subscribe" class="btn btn-primary">{{ i18n "subscribe"}}</button>
+  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+    <input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1">
+  </div>
+</form>
+
+{{ end }}
