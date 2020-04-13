@@ -1,26 +1,56 @@
-######################## default configuration ####################
 baseURL = "/"
-title = "Home | Brad Allen"
-# post pagination
+disableLanguages = ["fr"]
 paginate = "4"
-# post excerpt
 summaryLength = "10"
-# disable language
-disableLanguages = ["fr"] # desable language from here
-
-# unsafe html
+title = "Home | Brad Allen"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2020 [Brad Allen](https://www.bradallen.me)"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[Languages.fr]
+contentDir = "content/french"
+copyright = "Copyright &copy; 2020 [Brad Allen](https://www.bradallen.me)"
+languageCode = "fr-fr"
+languageName = "Fr"
+weight = 2
 [markup.goldmark.renderer]
 unsafe = true
-
-############################# Plugins ##############################
-
-# CSS Plugins
+[[menu.main]]
+URL = "project"
+name = "projects"
+weight = 3
+[[menu.main]]
+URL = "contact"
+name = "contact"
+weight = 5
+[[menu.main]]
+URL = "blog"
+name = "blog"
+weight = 4
+[[menu.main]]
+URL = "about"
+name = "about"
+weight = 2
+[[menu.main]]
+URL = "home"
+name = "home"
+weight = 1
+[params]
+author = "BradAllen"
+description = "This is meta description"
+google_analitycs_id = ""
+logo = "images/logo.png"
+particles = true
+[params.navigation_button]
+enable = true
+label = "contact"
+link = "contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -31,102 +61,26 @@ link = "plugins/particles/particles.min.js"
 link = "plugins/particles/stats.min.js"
 [[params.plugins.js]]
 link = "plugins/reading-time/readingTime.min.js"
-
-
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "home"
-URL = "home"
-weight = 1
-
-[[menu.main]]
-name = "about"
-URL = "about"
-weight = 2
-  
-[[menu.main]]
-name = "project"
-URL = "project"
-weight = 3
-  
-[[menu.main]]
-name = "blog"
-URL = "blog"
-weight = 4
-  
-[[menu.main]]
-name = "contact"
-URL = "contact"
-weight = 5
-
-
-#################### default parameters ################################
-[params]
-logo = "images/logo.png"
-# Meta data
-description = "This is meta description"
-author = "BradAllen"
-# Google Analitycs
-google_analitycs_id = "" # your id
-
-# body particles
-particles = true
-
-# Preloader
 [params.preloader]
 enable = true
-preloader = "" # use jpg, png, svg or gif format.
-
-# Navigation button
-[params.navigation_button]
-enable = true
-label = "contact"
-link = "contact"
-  
-############################# social site ########################
+preloader = ""
 [[params.social]]
+icon = "ti-facebook"
+link = "#"
 title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
 title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "ti-instagram"
+link = "#"
 title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "ti-github"
+link = "#"
 title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+icon = "ti-linkedin"
 link = "#"
-
-
-################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-# copyright
-copyright = "Copyright &copy; 2020 [Brad Allen](https://www.bradallen.me)"
-
-
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-# copyright
-copyright = "Copyright &copy; 2020 [Brad Allen](https://www.bradallen.me)"
+title = "linkedin"
