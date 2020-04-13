@@ -5,18 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/english/talks
-  label: Talks
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/english/publications
-  label: Publications
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/english/projects
-  label: Projects
+  path: content/english/author
+  label: Author
   create: all
   match: "**/*"
 - type: directory
@@ -25,8 +15,18 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/english/author
-  label: Author
+  path: content/english/projects
+  label: Projects
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/english/publications
+  label: Publications
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/english/talks
+  label: Talks
   create: all
   match: "**/*"
 upload_dir: static/uploads
