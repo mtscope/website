@@ -109,8 +109,8 @@ contact_info:
       id : "me@bradallen.me"
 
     # contact item loop
-    - icon : "ti-mobile" # themify icon : https://themify.me/themify-icons
-      id : "+15555555555"
+    # - icon : "ti-mobile" # themify icon : https://themify.me/themify-icons
+    #  id : "+15555555555"
 
     # contact item loop
     - icon : "ti-location-pin" # themify icon : https://themify.me/themify-icons

@@ -51,7 +51,7 @@
         {{ if .Site.Params.navigation_button.enable }}
         {{ "<!-- navigation button -->" | safeHTML }}
         <a href="{{ $.Site.BaseURL | relLangURL }}#{{ .Site.Params.navigation_button.link }}"
-          class="btn btn-primary ml-lg-4">{{ .Site.Params.navigation_button.label }}</a>
+          class="btn btn-primary ml-lg-4 page-scroll">{{ .Site.Params.navigation_button.label }}</a>
         {{ end }}
       </div>
     </nav>
