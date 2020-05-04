@@ -39,14 +39,14 @@ name = "home"
 weight = 1
 [params]
 author = "Brad Allen"
-description = "This is meta description"
-google_analitycs_id = ""
+description = "Hi, I'm Brad! A Software Developer & Data Enthusiast"
+google_analitycs_id = "UA-165348470-1"
 logo = "images/logo.svg"
 particles = true
 [params.navigation_button]
 enable = true
 label = "contact"
-link = "#contact"
+link = "/#contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
