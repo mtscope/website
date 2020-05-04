@@ -17,18 +17,18 @@ languageName = "Fr"
 weight = 2
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.main]]
-URL = "project"
-name = "projects"
-weight = 3
+# [[menu.main]]
+# URL = "project"
+# name = "projects"
+# weight = 3
 [[menu.main]]
 URL = "contact"
 name = "contact"
 weight = 5
-[[menu.main]]
-URL = "blog"
-name = "blog"
-weight = 4
+# [[menu.main]]
+# URL = "blog"
+# name = "blog"
+# weight = 4
 [[menu.main]]
 URL = "about"
 name = "about"
