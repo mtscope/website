@@ -46,7 +46,7 @@ particles = true
 [params.navigation_button]
 enable = true
 label = "contact"
-link = "/#contact"
+link = "contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
