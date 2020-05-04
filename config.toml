@@ -21,10 +21,10 @@ unsafe = true
 # URL = "project"
 # name = "projects"
 # weight = 3
-[[menu.main]]
-URL = "contact"
-name = "contact"
-weight = 5
+# [[menu.main]]
+# URL = "contact"
+# name = "contact"
+# weight = 5
 # [[menu.main]]
 # URL = "blog"
 # name = "blog"
