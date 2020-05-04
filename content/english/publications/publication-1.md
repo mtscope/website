@@ -1,5 +1,5 @@
 ---
-title: "“The biggest change to News Feed since 2013”: Facebook is making it easy to bypass its algorithm Feed since biggest"
+title: "My Publication Title"
 date: 2020-03-14T15:40:24+06:00
 # publication thumb
 image : "images/publications/pub1.jpg"

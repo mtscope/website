@@ -38,7 +38,7 @@ URL = "home"
 name = "home"
 weight = 1
 [params]
-author = "BradAllen"
+author = "Brad Allen"
 description = "This is meta description"
 google_analitycs_id = ""
 logo = "images/logo.svg"
@@ -46,7 +46,7 @@ particles = true
 [params.navigation_button]
 enable = true
 label = "contact"
-link = "contact"
+link = "#contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -65,22 +65,14 @@ link = "plugins/reading-time/readingTime.min.js"
 enable = true
 preloader = ""
 [[params.social]]
-icon = "ti-facebook"
-link = "#"
-title = "facebook"
-[[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/mtscope"
 title = "twitter"
 [[params.social]]
-icon = "ti-instagram"
-link = "#"
-title = "instagram"
-[[params.social]]
 icon = "ti-github"
-link = "#"
+link = "https://github.com/mtscope"
 title = "github"
 [[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "https://www.linkedin.com/in/mtscope"
 title = "linkedin"

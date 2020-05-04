@@ -1,8 +1,8 @@
 ######################### Banner ###########################
 banner:
   enable : true
-  title :  "Hey, I’m Brad **!**"
-  subtitle : "A Software Engineer & Data Enthusiast"
+  title :  "Hi, I’m Brad **!**"
+  subtitle : "A Software Developer & Data Enthusiast"
   social : true
   # social icons comes from `config.toml` file.
 
@@ -18,7 +18,7 @@ about:
 
 ####################### Education ###########################
 education:
-  enable : true
+  enable : false
   title : "Education"
   education_item:
     # education item loop
@@ -46,7 +46,7 @@ education:
 
 ####################### Expertise ###########################
 expertise:
-  enable : true
+  enable : false
   title : "Expertise"
   expertise_item:
     # expertise item loop
@@ -74,25 +74,25 @@ talk:
 
 ########################## Projects ###########################
 project:
-  enable : true
+  enable : false
   title : "My Projects"
   # projects item comes from `content/**/projects/` folder.
 
 
 ########################### Blog ##############################
 blog:
-  enable : true
+  enable : false
   title : "Blog Post"
   # blog item comes from `content/**/blogs/` folder.
 
 
 
 ########################## Contact ############################
-# contact foem
+# contact form
 contact_form:
   enable : true
   title : "Contact Me"
-  contact_form_action : "#" #contact form works with https://formspree.io
+  contact_form_action : "https://formspree.io/me@bradallen.me" #contact form works with https://formspree.io
   name_label : "Your Name"
   email_label : "Your Email"
   textarea_label : "Your Message"
@@ -102,7 +102,7 @@ contact_form:
 contact_info:
   enable : true
   title : "Get In Touch"
-  content : "Let’s talk about your project and how I can help you or if you just want to chat about design and art - shoot me a message at abcxmple@gmail.com"
+  content : "Let’s talk about your project and how I can help you or if you just want to chat - shoot me a message at me@bradallen.me"
   contact_item:
     # contact item loop
     - icon : "ti-email" # themify icon : https://themify.me/themify-icons

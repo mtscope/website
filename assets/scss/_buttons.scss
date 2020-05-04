@@ -90,3 +90,17 @@
     color: $black;
   }
 }
+
+.btn-primary.focus, .btn-primary:focus {
+  background: $primary-color;
+  color: $white;
+  border-color: $primary-color;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background: $primary-color !important;
+    border-color: $primary-color !important;
+  }
+}
